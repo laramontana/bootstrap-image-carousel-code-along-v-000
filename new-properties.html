@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
+    <title>Exceptional Realty Group - Luxury Homes - New Properties</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,10 +44,10 @@
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <!-- main nav links -->
+                            <!-- main nav links -->
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-                                <li><a href="new-properties.html">New Properties</a></li>
+                                <li><a href="index.html">About</a></li>
+                                <li class="active"><a href="#">New Properties<span class="sr-only">(current)</span></a></li>
                                 <li><a href="#">Listings</a></li>
                                 <li><a href="#">Market Report</a></li>
                                 <li><a href="#">Contact</a></li>
@@ -56,7 +56,7 @@
 
 
                             </ul>
-          <!-- social nav links -->
+                            <!-- social nav links -->
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a class="twit" href="#" title="Twitter">Twitter</a></li>
                                 <li><a class="fbook" href="#" title="Facebook">Facebook</a></li>
@@ -72,32 +72,46 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-12">
-                <figure>
-                    <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
-                    <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
-                </figure>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
-            </div>
-        </div>
+            <div class="col-xs-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+                    </ol>
 
-        <div class="row">
-            <div class="col-sm-8">
-                <figure>
-                    <video controls>
-                <source src="videos/real-estate.mp4" type="video/mp4">
-                <source src="videos/real-estate.ogv" type="video/ogg">
-                Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgrade your browser</a>.
-              </video>
-                    <figcaption>Exceptional Realty Group Promotional Video - Source: archive.org</figcaption>
-                </figure>
-            </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
 
-            <div class="col-sm-4">
-                <h3>Company News</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, inventore, vero, rerum ullam nihil sapiente tempora molestias quis ducimus ipsum laborum vel. Tempore perspiciatis ea error dignissimos libero recusandae explicabo.</p>
+                        <div class="item active">
+                            <img src="images/new-1.jpg" alt="304 Olson Rd.">
+                            <div class="carousel-caption">
+                              <h3>304 Olson Rd.</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto maxime quam temporibus id unde quia laboriosam quo sapiente, rem quaerat ut, fugiat, eveniet doloribus natus repellat velit iste voluptas! Esse.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/new-2.jpg" alt="9872 Freemont Dr.">
+                            <div class="carousel-caption">
+                                <h3>9872 Freemont Dr.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aut quo voluptas quas ab quidem, voluptates ipsum ducimus asperiores itaque quia facilis labore necessitatibus incidunt delectus illum ea aliquam quisquam?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
             </div>
         </div>
 
